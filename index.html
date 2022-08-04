@@ -32,7 +32,8 @@
     <link rel="icon" href="img/sie-logo.svg" />
   </head>
 
-  <!-- RICORDA CON BOOTSTRAP I MARGINI SOPRA POSSONO COLLASSARE -->
+  <!-- RICORDA CON BOOTSTRAP I MARGINI SOPRA POSSONO COLLASSARE,
+  e che i col hanno 0.75rem ai lati -->
 
   <body>
     <!-- #region HEADER -->
@@ -201,7 +202,34 @@
       <!-- #region HARWARE-->
 
       <section id="hardware">
-        <aside id="accesories"></aside>
+        <div class="container">
+          <div class="section-caption text-center fw-bolder py-5">
+            <span class="text-primary text-uppercase">play has no limits</span>
+            <h1 class="mb-4">Ecco la PlayStation 5</h1>
+            <p class="text-muted">
+              Tuffati in nuove possibilità di gioco completamente inaspettate
+            </p>
+          </div>
+          <article class="row">
+            <div
+              class="col-12 col-sm d-flex flex-column justify-content-center"
+            >
+              <h1 class="mb-4">Console PlayStation 5</h1>
+              <p class="mb-4 text-muted">
+                Sperimenta la nuova generazione di incredibili giochi
+                Playstation.
+              </p>
+              <a class="btn btn-primary rounded-5 align-self-start" href="#">
+                Aquista ora
+              </a>
+              <!-- align-self viene utilizzato per togliere lo strecth di default -->
+            </div>
+            <div class="col-12 col-sm">
+              <img class="img-fluid" src="img/playstation-5-thumb.png" alt="" />
+            </div>
+          </article>
+          <aside id="accesories"></aside>
+        </div>
       </section>
 
       <!-- #endregion /HARDWARE-->
