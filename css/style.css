@@ -1,3 +1,15 @@
+/*++++++++++
+VARIABLES
+++++++++++*/
+
+:root {
+  --primary-color: #0d6efd;
+}
+
+/*----------
+VARIABLES
+----------*/
+
 ul {
   list-style: none;
 }
@@ -24,7 +36,12 @@ ul {
   border-radius: 100px;
   font-weight: bold;
 }
-
+.my-btn-op-primal {
+  background-color: rgb(255, 255, 255, 0.3);
+  color: var(--primary-color);
+  border-radius: 100px;
+  font-weight: bold;
+}
 /*- /button -*/
 
 /*----------
@@ -48,7 +65,7 @@ CUSTOMS
 #accesories a:hover {
   border: white !important;
   border-radius: 0 !important;
-  border-bottom: 1px solid #0d6efd !important;
+  border-bottom: 1px solid var(--primary-color) !important;
 }
 
 #ads-first-place {
@@ -56,6 +73,9 @@ CUSTOMS
   background-size: cover;
   background-position: top;
   color: white;
+}
+#station-plus {
+  background-color: hsl(20deg 2% 74%);
 }
 /*----------
  /CUSTOMS 
