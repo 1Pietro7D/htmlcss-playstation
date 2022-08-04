@@ -11,3 +11,13 @@
 /*----------
  /UTILITIES
 ----------*/
+
+#jumbo-tron {
+  background-image: url("../img/jumbo-bg.png");
+  margin-top: calc(56px + 29.2px);
+  background-size: cover;
+  background-position: top;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  color: #fff;
+}
