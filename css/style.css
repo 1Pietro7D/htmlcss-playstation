@@ -9,7 +9,7 @@
   width: 75px;
 }
 
-/* button */
+/*+ button +*/
 
 .my-btn-red {
   background-color: red;
@@ -17,11 +17,15 @@
   border-radius: 100px;
 }
 
-/* /button */
+/*- /button -*/
 
 /*----------
  /UTILITIES
 ----------*/
+
+/*++++++++++
+CUSTOMS
+++++++++++*/
 
 #jumbo-tron {
   background-image: url("../img/jumbo-bg.png");
@@ -33,3 +37,7 @@
   color: white;
   vertical-align: middle;
 }
+
+/*----------
+ /CUSTOMS 
+----------*/
