@@ -36,16 +36,24 @@ CUSTOMS
   margin-top: calc(56px + 29.2px);
   background-size: cover;
   background-position: top;
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   color: white;
-  vertical-align: middle;
 }
 
 #accesories a:hover {
   border: white !important;
   border-radius: 0 !important;
   border-bottom: 1px solid #0d6efd !important;
+}
+
+#ads-first-place {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-position: top;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: white;
 }
 /*----------
  /CUSTOMS 
