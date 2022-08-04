@@ -4,6 +4,7 @@ VARIABLES
 
 :root {
   --primary-color: #0d6efd;
+  --bg-dark-blue: hsl(230deg 46% 16%);
 }
 
 /*----------
@@ -42,6 +43,12 @@ ul {
   border-radius: 100px;
   font-weight: bold;
 }
+.my-btn-white-dark-blue {
+  background-color: white;
+  color: var(--bg-dark-blue);
+  border-radius: 100px;
+  font-weight: bold;
+}
 /*- /button -*/
 
 /*----------
@@ -76,6 +83,10 @@ CUSTOMS
 }
 #station-plus {
   background-color: hsl(20deg 2% 74%);
+}
+#station-now {
+  background-color: var(--bg-dark-blue);
+  color: white;
 }
 /*----------
  /CUSTOMS 
