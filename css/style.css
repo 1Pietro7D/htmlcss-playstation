@@ -9,6 +9,9 @@ ul {
 .my-bg-black {
   background-color: black;
 }
+.my-bg-black-trasp {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 .my-w-75px {
   width: 75px;
 }
@@ -19,6 +22,7 @@ ul {
   background-color: red;
   color: white;
   border-radius: 100px;
+  font-weight: bold;
 }
 
 /*- /button -*/
@@ -51,8 +55,6 @@ CUSTOMS
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
   background-size: cover;
   background-position: top;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   color: white;
 }
 /*----------
