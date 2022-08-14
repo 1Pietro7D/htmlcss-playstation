@@ -5,6 +5,7 @@ VARIABLES
 :root {
   --primary-color: #0d6efd;
   --bg-dark-blue: hsl(230deg 46% 16%);
+  --nav-theme: #363636;
 }
 
 /*----------
@@ -22,6 +23,9 @@ a:not(.not) {
 /*++++++++++
  UTILITIES 
 ++++++++++*/
+.my-bg-inherit {
+  background-color: inherit;
+}
 
 .my-bg-black {
   background-color: black;
@@ -42,7 +46,12 @@ a:not(.not) {
 }
 
 /*+ button +*/
-
+.my-btn-nav {
+  background-color: var(--nav-theme);
+  color: white;
+  border-radius: 100px;
+  font-weight: bold;
+}
 .my-btn-red {
   background-color: red;
   color: white;
